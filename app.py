@@ -1015,7 +1015,53 @@ else:
                         unsafe_allow_html=True,
                     )
 
-                st.markdown("</div>", unsafe_allow_html=True)
+                            st.markdown("</div>", unsafe_allow_html=True)
+
+
+# -----------------------------
+# Seção: Análise textual
+# -----------------------------
+st.markdown("<div class='rli-full-line'></div>", unsafe_allow_html=True)
+
+st.markdown(
+    "<div id='analise-textual' class='rli-section'>",
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    "<div class='rli-kicker'>Análise textual das normas</div>",
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    "<div class='rli-h2'>Conceitos e Redes das Leis de Inovação</div>",
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
+<div class="rli-p">
+Consulta, sistematização e visualização dos termos presentes nos marcos normativos de inovação nos três níveis federativos do Brasil.
+</div>
+
+<a
+    class="rli-cta"
+    href="https://rlibrasilanalysis.streamlit.app/"
+    target="_blank"
+>
+    Acessar as análises &#8599;
+</a>
+""",
+    unsafe_allow_html=True,
+)
+
+st.markdown("</div>", unsafe_allow_html=True)
+
+st.markdown(
+    "<div class='rli-full-line'></div>",
+    unsafe_allow_html=True,
+)
+
 
 # -----------------------------
 # Seção: Contato
