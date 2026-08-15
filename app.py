@@ -1050,6 +1050,7 @@ st.markdown(
 )
 
 st.markdown("</div>", unsafe_allow_html=True)
+st.markdown("<div class='rli-full-line'></div>", unsafe_allow_html=True)
 
 # -----------------------------
 # Seção: Contato
