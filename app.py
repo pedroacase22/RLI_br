@@ -1017,40 +1017,73 @@ else:
 
 st.markdown("</div>", unsafe_allow_html=True)
 
-
 # -----------------------------
 # Seção: Análise textual
 # -----------------------------
 st.markdown("<div class='rli-full-line'></div>", unsafe_allow_html=True)
 
-st.markdown("<div id='analise-textual' class='rli-section'>", unsafe_allow_html=True)
-
-st.markdown(
-    "<div class='rli-kicker'>Análise textual das normas</div>",
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    "<div class='rli-h2'>Conceitos e Redes das Leis de Inovação</div>",
-    unsafe_allow_html=True,
-)
-
 st.markdown(
     """
-<div class="rli-p">
-Consulta, sistematização e visualização dos termos presentes nos marcos normativos de inovação nos três níveis federativos do Brasil.
-</div>
-""",
+    <div id="analise-textual" style="
+        max-width: 1100px;
+        margin: 70px auto;
+        padding: 64px 60px;
+        text-align: center;
+        background: #f7f9f8;
+        border-radius: 24px;
+        border: 1px solid #e5e9e7;
+    ">
+
+        <div class="rli-kicker" style="
+            margin-bottom: 18px;
+            letter-spacing: 0.12em;
+        ">
+            ANÁLISE TEXTUAL DAS NORMAS
+        </div>
+
+        <div style="
+            font-size: clamp(42px, 5vw, 64px);
+            line-height: 1.05;
+            font-weight: 800;
+            color: #0f1728;
+            max-width: 900px;
+            margin: 0 auto 26px auto;
+            letter-spacing: -0.035em;
+        ">
+            Conceitos e Redes<br>das Leis de Inovação
+        </div>
+
+        <div class="rli-p" style="
+            max-width: 850px;
+            margin: 0 auto 36px auto;
+            font-size: 20px;
+            line-height: 1.65;
+            text-align: center;
+        ">
+            Consulta, sistematização e visualização dos termos presentes
+            nos marcos normativos de inovação nos três níveis federativos do Brasil.
+        </div>
+
+        <a
+            class="rli-cta"
+            href="https://rlibrasilanalysis.streamlit.app/"
+            target="_blank"
+            style="
+                display: inline-block;
+                font-size: 17px;
+                padding: 16px 28px;
+            "
+        >
+            Acessar as análises ↗
+        </a>
+
+    </div>
+    """,
     unsafe_allow_html=True,
 )
 
-st.markdown(
-    '<a class="rli-cta" href="https://rlibrasilanalysis.streamlit.app/" target="_blank">Acessar as análises ↗</a>',
-    unsafe_allow_html=True,
-)
-
-st.markdown("</div>", unsafe_allow_html=True)
 st.markdown("<div class='rli-full-line'></div>", unsafe_allow_html=True)
+
 
 # -----------------------------
 # Seção: Contato
