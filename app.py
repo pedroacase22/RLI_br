@@ -1015,7 +1015,7 @@ else:
                         unsafe_allow_html=True,
                     )
 
-                            st.markdown("</div>", unsafe_allow_html=True)
+st.markdown("</div>", unsafe_allow_html=True)
 
 
 # -----------------------------
@@ -1057,10 +1057,7 @@ Consulta, sistematização e visualização dos termos presentes nos marcos norm
 
 st.markdown("</div>", unsafe_allow_html=True)
 
-st.markdown(
-    "<div class='rli-full-line'></div>",
-    unsafe_allow_html=True,
-)
+st.markdown("<div class='rli-full-line'></div>", unsafe_allow_html=True)
 
 
 # -----------------------------
